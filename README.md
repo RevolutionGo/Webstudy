@@ -20,17 +20,25 @@
   * 图集页用于向访客展示精彩游戏图片
   * 反馈页提供访客联系站长的入口及联系地址的百度地图
 #### 3.开发技术
-（兼容IE7）
-采用了响应式设计，可以较好地兼容移动端
+主要研究了浏览器兼容性与响应式设计方面的问题，本站兼容IE7，采用了响应式设计，可以较好地兼容移动端
 ##### html
   * 利用iframe嵌入视频网站和百度地图
   * viewport元标签
 ##### css
   * 利用bootstrap 栅格系统进行页面布局
   * 鼠标悬停图片变灰
-  * 使用伪类元素
-  * 使用了@符号，在导入样式中用到，链接样式是以@import url标记所链接的外部样式表，它一般常用在另一个样式表内部。
+  * 使用伪类、伪元素
   * 媒体查询@media 指令
+  * 使用了一个有趣，酷炫的，跨浏览器的CSS3动画库[animate.css](https://www.cnblogs.com/xiaohuochai/p/7372665.html)
 ##### js  
-  * 使用了轮播图
-  * 利用lightbox实现灯箱效果
+  * 使用了[responsiveslides.js](https://www.w3cways.com/1653.html)实现轮播图
+  * 使用[lightbox.js](http://code.ciaoca.com/jquery/lightbox2/)实现灯箱效果
+  * 使用[flexisel.js](http://www.511yj.com/wordpress-flexisel-js.html)响应适应屏幕宽度旋转木马插件
+  * 使用[Waypoints.js](http://www.bcty365.com/content-47-2583-1.html)实现滚动监听
+  * 使用[jquery.placeholder.min.js](https://www.cnblogs.com/chiangyibo/p/6938250.html)让IE6+支持placeholder。
+  * 使用[modernizr.js](http://caibaojian.com/modernizr-js.html)检测浏览器的css3和HTML5的属性，从而通过CSS来解决兼容性问题。
+  * 使用[Respond.js](https://www.cnblogs.com/xcsn/p/5586859.html)让IE6-8支持CSS3 Media Query，兼容响应式布局。
+#### 4.待改进
+  * 客户端应用（json、ajax、前端模版等）
+  * 工程化（node.js、npm、webpack等）
+  
