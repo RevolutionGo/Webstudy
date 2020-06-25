@@ -38,7 +38,5 @@
   * 使用[jquery.placeholder.min.js](https://www.cnblogs.com/chiangyibo/p/6938250.html)让IE6+支持placeholder。
   * 使用[modernizr.js](http://caibaojian.com/modernizr-js.html)检测浏览器的css3和HTML5的属性，从而通过CSS来解决兼容性问题。
   * 使用[Respond.js](https://www.cnblogs.com/xcsn/p/5586859.html)让IE6-8支持CSS3 Media Query，兼容响应式布局。
-#### 4.待改进
-  * 客户端应用（json、ajax、前端模版等）
-  * 工程化（node.js、npm、webpack等）
+
   
